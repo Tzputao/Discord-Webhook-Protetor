@@ -1,0 +1,29 @@
+{
+  "name": "discord-webhook-protector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rdimo/Discord-Webhook-Protector.git"
+  },
+  "keywords": [
+    "webhook-protector",
+    "webhook",
+    "protector"
+  ],
+  "author": "Rdimo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rdimo/Discord-Webhook-Protector/issues"
+  },
+  "homepage": "https://github.com/Rdimo/Discord-Webhook-Protector#readme",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "express": "^4.17.3",
+    "totp-generator": "^0.0.13"
+  }
+}
